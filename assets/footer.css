@@ -1,0 +1,69 @@
+#barra-footer{
+    height: 8rem;
+    width: 100%;
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.barra-play-centro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    
+}
+
+#play {
+    display: flex;
+    width:93rem;
+
+}
+
+.barra-play-direita {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 1rem;
+    gap: 0.7rem;
+}
+
+#barrar-branca{
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.barra-play-centro{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.opcoes-de-botoes{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+
+}
+
+.hr{
+    background-color: white;
+    border-radius: 2rem;
+    height:0.2rem;
+    width: 40rem;
+
+}
+
+.hr2{
+    background-color: white;
+    border-radius: 2rem;
+    height:0.2rem;
+    width: 6rem;
+}
+

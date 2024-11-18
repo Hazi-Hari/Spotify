@@ -1,0 +1,57 @@
+@import url(./header.css);
+@import url(./main.css);
+@import url(./footer.css);
+@import url(./barralateral.css);
+
+@font-face {
+    font-family:spotflix ;
+    src: url(./Fonte/GothamMedium_1.ttf);
+}
+
+/*==============================Cores DO SITE==================================*/
+:root{
+    --branco_transparente: rgba(255, 255, 255, 0.685);
+    --branco:white;
+}
+/*==============================================================================*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#parte-de-cima{
+    font-size: 62.5%;
+    width: 100%;
+    display: flex;
+    background-image:linear-gradient(to top, black, rgb(97, 1, 65) 65% );
+    text-decoration: none;
+    font-style: none;
+}
+
+body {
+    font-size: 62.5%;
+    width: 100%;
+    display: flex;
+    background-image:linear-gradient(to top, black, rgb(97, 1, 65) 65% );
+    text-decoration: none;
+    font-style: none;
+    flex-direction: column;
+}
+
+
+h1 {
+    font-family: spotflix;
+    font-size: 2rem;
+    color: var(--branco);
+}
+
+img{
+    height: 2rem;
+}
+
+
+
+
+/*======================================================================*/
+
